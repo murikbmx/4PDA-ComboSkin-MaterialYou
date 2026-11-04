@@ -5,10 +5,10 @@
 <img src="https://img.shields.io/badge/Build%20project%20/%20Сборка%20проекта-blue?longCache=true&logo=github&labelColor=blue&style=flat">
 
 `ENG`
-You can build this project on desktop with Android Studio or on Android device with AIDE - Android IDE - Java, C++
+You can build this project on desktop with Android Studio (JDK 17+) or on Android device with AIDE - Android IDE - Java, C++
 
 `RUS`
-Вы можете собрать данный проект на декстопе в Android Studio либо на устройстве с Android OS с помощью AIDE - Android IDE - Java, C++ 
+Вы можете собрать данный проект на декстопе в Android Studio (JDK 17+) либо на устройстве с Android OS с помощью AIDE - Android IDE - Java, C++ 
 
 #
 
@@ -28,10 +28,14 @@ For building a project in AIDE - Android IDE - Java, C++
 
 Import [A12](https://github.com/Sable/android-platforms/tree/master/android-32) android.jar
 
+`values-v34` (Android 14+ Material You tokens) requires android.jar API 34 or newer. With the A12 jar, delete `app/src/main/res/values-v34` before building
+
 `RUS`
 Для сборки проекта в AIDE - Android IDE - Java, C++
 
 Импортируйте [A12](https://github.com/Sable/android-platforms/tree/master/android-32) android.jar
+
+Для `values-v34` (цвета Material You для Android 14+) нужен android.jar API 34 или новее. С A12 jar удалите папку `app/src/main/res/values-v34` перед сборкой
 
 #
 #

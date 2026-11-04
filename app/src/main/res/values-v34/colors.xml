@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 14+ (API 34): semantic Material You tokens.
+     They follow the system contrast setting and match current system surfaces.
+     Android 12-13 keep the palette from values/colors.xml. -->
+<resources>
+    <!-- Day -->
+    <color name="brend">@android:color/system_surface_container_light</color>
+    <color name="brend_alpha">@android:color/system_outline_variant_light</color>
+    <color name="bubble_my_bg">@android:color/system_surface_container_highest_light</color>
+    <color name="main_text">@android:color/system_on_surface_variant_light</color>
+    <color name="bb_link">@android:color/system_primary_light</color>
+    <color name="bb_quote_border">@android:color/system_primary_light</color>
+    <color name="bb_quote_indent">@android:color/system_primary_light</color>
+    <color name="bb_spoiler_border">@android:color/system_primary_light</color>
+    <color name="bb_spoiler_indent">@android:color/system_primary_light</color>
+    <color name="bb_spoiler_indent_close">@android:color/system_primary_light</color>
+
+    <!-- Night -->
+    <color name="zn_brend">@android:color/system_surface_container_dark</color>
+    <color name="zn_brend_alpha">@android:color/system_surface_container_highest_dark</color>
+    <color name="zn_bubble_my_bg">@android:color/system_surface_container_highest_dark</color>
+    <color name="zn_bubble_oppo_bg">@android:color/system_surface_variant_dark</color>
+    <color name="zn_main_text">@android:color/system_on_surface_variant_dark</color>
+</resources>
